@@ -23,11 +23,11 @@ pyautogui.PAUSE = 3
 
 pyautogui.position(x=404, y=1061)
 pyautogui.click(x=404, y=1061)
-pyperclip.copy("https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox")
+pyperclip.copy("gmail.com")
 pyautogui.hotkey('ctrl','v')
 pyautogui.hotkey('enter')
 pyautogui.click(x=75, y=210)
-pyperclip.copy('robmiranda.almeida@gmail.com')
+pyperclip.copy('seu email')
 pyautogui.hotkey('ctrl','v')
 pyautogui.hotkey('tab')
 pyperclip.copy(assunto)
